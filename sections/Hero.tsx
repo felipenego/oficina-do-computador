@@ -40,7 +40,7 @@ export default function Hero() {
 <div className="flex flex-wrap gap-10 mt-16">
   <div>
     <h3 className="text-4xl font-black text-cyan-400">
-      +100
+      +10 Mil
     </h3>
 
     <p className="text-slate-400 mt-2">
