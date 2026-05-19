@@ -7,6 +7,7 @@ import Services from "../sections/Services";
 import Corporate from "../sections/Corporate";
 import Automation from "../sections/Automation";
 import CTA from "../sections/CTA";
+import Plans from "../sections/Plans";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
       <Corporate />
 
       <Automation />
+
+      <Plans />
 
       <CTA />
 
