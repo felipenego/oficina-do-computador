@@ -5,18 +5,19 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-slate-950/70 border-b border-white/10">
-      <div className="max-w-7xl mx-auto px-6 h-36 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 h-24 md:h-32 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <Image
             src="/logo.png"
             alt="Oficina do Computador"
-            width={420}
-            height={160}
+            width={500}
+            height={200}
             priority
+            className="drop-shadow-[0_0_20px_rgba(6,182,212,0.25)]"
             style={{
               width: "auto",
               height: "auto",
-              maxHeight: "130px",
+              maxHeight: "95px",
             }}
           />
         </div>

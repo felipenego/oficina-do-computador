@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-white min-h-screen flex items-center">
+    <section className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-blue-950 to-slate-900 text-white min-h-screen flex items-center pt-52 md:pt-36">
       <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,rgba(6,182,212,0.3),transparent_40%)]"></div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -9,7 +9,7 @@ export default function Hero() {
             Atendimento Presencial • Remoto • Corporativo
           </div>
 
-          <h1 className="text-4xl md:text-7xl font-black leading-tight">
+          <h1 className="text-5xl md:text-7xl font-black leading-tight">
             Tecnologia inteligente para empresas e residências que{" "}
             <span className="text-cyan-400 drop-shadow-[0_0_25px_rgba(6,182,212,0.7)]">
               não podem parar.
@@ -21,7 +21,7 @@ export default function Hero() {
             e soluções com inteligência artificial para negócios modernos.
           </p>
 
-          <div className="flex flex-wrap gap-5 mt-10">
+          <div className="flex flex-col sm:flex-row gap-5 mt-10">
             <a
               href="https://wa.me/5585992402077"
               target="_blank"
